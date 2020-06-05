@@ -24,7 +24,7 @@ namespace NguyenMinhHung_Lab456.Controllers
             var course = new Course
             {
                 LecturerId = User.Identity.GetUserId(),
-                DateTime = viewModel.GetDateTime(),
+                DateTime = viewModel.GetDateTime(), 
                 CategoryId = viewModel.Category,
                 Place = viewModel.Place
             };
